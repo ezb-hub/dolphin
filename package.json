@@ -8,8 +8,9 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "clean": "rm -rf .next",
+    "dev": "yarn clean && cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "yarn clean && next build",
     "start": "next start",
     "lint": "next lint",
     "check-types": "tsc --pretty --noEmit",
@@ -27,6 +28,7 @@
     "@types/node": "18.7.20",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "cross-env": "^7.0.3",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "husky": "^8.0.1",
