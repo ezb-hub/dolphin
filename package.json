@@ -9,6 +9,7 @@
   },
   "scripts": {
     "clean": "rm -rf .next",
+    "clean-sb": "rm -rf storybook-static",
     "dev": "yarn clean && cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "yarn clean && next build",
     "start": "next start",
@@ -18,8 +19,8 @@
     "check-lint": "eslint . --ext ts --ext tsx",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "sb": "start-storybook -p 6006",
+    "build-sb": "rm -rf clean-sb && build-storybook"
   },
   "dependencies": {
     "next": "12.3.1",
