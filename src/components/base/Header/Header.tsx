@@ -15,7 +15,7 @@ const Header = () => {
         <div className="container">
           <div className="flex justify-between">
             <a href="#" className="p-4">
-              <h1>JAVELIN</h1>
+              <h1>EZB</h1>
             </a>
 
             <nav className="flex flex-1 place-content-evenly">

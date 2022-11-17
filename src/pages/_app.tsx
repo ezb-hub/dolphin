@@ -16,11 +16,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="JAVELIN, a shop for gamers, creators, and PC builders, has the PC hardware and gaming gear you need to Do Your Thing."
+          content="EZB, a shop for gamers, creators, and PC builders, has the PC hardware and gaming gear you need to Do Your Thing."
         />
         <link rel="icon" href="/favicon.ico" />
 
-        <title>PC Components | Gaming Gear | JAVELIN</title>
+        <title>PC Components | Gaming Gear | EZB</title>
       </Head>
 
       <Component {...pageProps} />
