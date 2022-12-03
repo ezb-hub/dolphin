@@ -1,0 +1,11 @@
+node_modules/
+.git/
+.cache/
+.next/
+.husky/
+.vscode/
+
+.env
+docker-compose.yaml
+.gitignore
+Dockerfile
